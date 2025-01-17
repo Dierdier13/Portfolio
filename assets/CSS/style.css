@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 2000px;
+}
+
+/************************HEADER**************************/
+#banner {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+
+    .name {
+        color: #E9D99C;
+        position: relative;
+        top: 40%;
+        left: 30%;
+
+        h1 {
+            font-size: 70px;
+        }
+    }
+
+    nav {
+        margin: 3%;
+
+        ul {
+            display: flex;
+            gap: 80px;
+            list-style: none;
+        }
+
+        a {
+            color: #E9D99C;
+            text-decoration: none;
+            font-size: 32px;
+        }
+    }
+
+    #logo {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        left: 10.5%;
+        transition: width 0.3s ease;
+        overflow: visible;
+    }
+    .little-logo{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/**********************FOOTER**************************/
+
+footer {
+    height: 50px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(208, 104, 19, 1) 100%);
+    color: #E9D99C;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
